@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.heading {
+    height: 70px;
+    ;
+    background-color: white;
+    color: #14030c;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 400px;
+}
+
+.img {
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.login {
+    background-color: white;
+    height: calc(100vh-50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapped {
+    background-color: rgb(152, 147, 147);
+    width: 60%;
+    height: 75%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.left,
+.right {
+    padding: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.or {
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+
+.loginButton {
+    width: 130px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.google {
+    background-color: #df4930;
+}
+
+.github {
+    background-color: blue;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.loginTitle {
+    position: absolute;
+    color: rgb(252, 245, 245);
+    top: 280px;
+}
+
+
+/*home css*/
+
+.Container {
+    background-color: #282c34;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.log-out {
+    border-radius: 10px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    width: 160px;
+    outline: none;
+    border: 2px solid gray;
+    transition: 0.3s;
+}
+
+.log-out:hover {
+    background-color: #000000;
+    border: 2px solid white;
+    color: #ffff;
+}
+
+.log-out a {
+    text-decoration: none;
+}
+
+.log-out:hover>a {
+    color: white;
+}
+
+.main-img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #0e0a0b;
+}
+
+.main-img img {
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+    -webkit-user-drag: none;
+    cursor: pointer;
+}
+
+.main-img img:hover {
+    scale: 1.1;
+}
+
+.intro {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.intro h1 {
+    font-size: 40px;
+}
+
+.contact {
+    margin-top: auto;
+    padding-left: 20px;
+}
+
+.contact p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 700;
+}
+
+.contact p a {
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact p:hover>a {
+    color: green;
+    font-weight: bold;
+}
+
+.social {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.fb-icon,
+.insta-icon,
+.tw-icon {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    /* align-items: center; */
+    cursor: pointer;
+    border: 2px solid #111010;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.fb-icon:hover {
+    background-color: blue;
+    color: white;
+    fill: white;
+    border: 0px;
+}
+
+.insta-icon:hover {
+    background-color: rgba(255, 81, 0, 0.886);
+    color: white;
+    fill: white;
+    border: 0px;
+}
+
+.tw-icon:hover {
+    background-color: skyblue;
+    color: white;
+    fill: white;
+    border: 0px;
+}
